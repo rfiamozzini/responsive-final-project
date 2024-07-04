@@ -55,6 +55,24 @@ p {
   line-height: 2;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
 .btn-branding {
   background: var(--branding-color);
   color: white;
@@ -82,14 +100,16 @@ p {
     padding: 0;
     text-align: center;
   }
-}
 
-@media (max-width: 900px) {
   .hero h1 {
     font-size: 64px;
   }
 
   h2 {
     font-size: 44px;
+  }
+
+  .about-section-content {
+    text-align: center;
   }
 }

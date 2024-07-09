@@ -106,6 +106,10 @@ p {
   padding: 120px 60px 0;
 }
 
+.active {
+  color: var(--branding-color) !important;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
